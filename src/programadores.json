@@ -1,0 +1,34 @@
+[
+    {
+      
+      "id": "001",
+      "nombre": "albert",
+      "apellido":"perez",
+      "clave": 123456,
+      "foto_url": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+      "edad": 59,
+      "email": "albert@hola.cl",
+      "telefono": 4567890,
+      "biografia": "lorep ipsum blablabla",
+      "area": ["frontend", "js","react" ],
+      "link_github": "www.github.com/123456",
+      "link_vercel": "www.vercel.com/link"
+    },
+    {
+      
+        "id": "002",
+        "nombre": "catalina",
+        "apellido":"olea",
+        "clave": 12345678,
+        "foto_url": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+        "edad": 29,
+        "email": "catalina@hola.cl",
+        "telefono": 4567890,
+         "biografia": "lorep ipsum blablabla",
+        "area": ["backend", "js","node js" ],
+        "link_github": "www.github.com/123456890",
+        "link_vercel": "www.vercel.com/linkdos"
+      }
+   
+  ]
+  
