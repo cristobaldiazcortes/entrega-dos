@@ -66,7 +66,7 @@ export default function Perfil() {
               className="button-contactar"
               onClick={() => irContacto(programadorDetalle.id)}
             >
-              Contactar s
+              Contactar 
             </Button>
           </div>
 
