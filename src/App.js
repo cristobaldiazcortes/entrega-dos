@@ -2,7 +2,8 @@ import {React, useEffect, useState} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Perfil from "./components/views/Perfil"
+import NavBar from "./components/Navbar"
+import PerfilProgramador from "./components/views/PerfilProgramador"
 import Contacto from "./components/views/Contacto"
 import Home from "./components/views/Home"
 import Contexto from "./components/contexto/Contexto";
@@ -27,10 +28,12 @@ return (
   <>
      <Contexto.Provider value={{ programadores, setProgramadores }}>
       <BrowserRouter>
+
+        <NavBar />
         
         <Routes>
           <Route path="/freecoders/">
-            <Route path=":id" element={< Perfil />} />
+            <Route path=":id" element={< PerfilProgramador />} />
             
           </Route>
           <Route path="/contacto/">

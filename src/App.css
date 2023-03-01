@@ -96,7 +96,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form input[type="range"] {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -293,10 +293,7 @@ form button[type="submit"]:hover {
 
 /* seccion perfil  */
 
-.lado-der {
-  margin-top: 10%;
-  margin-left: 7%;
-}
+
 
 .alinear-der {
   display: flex;
@@ -310,12 +307,11 @@ form button[type="submit"]:hover {
 }
 
 /* card */
-.col-4 {
+.ajustes-card {
   display: flex;
   flex: 0 0 auto;
-  width: 33.33333333%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -394,9 +390,12 @@ a {
 
 .secc-izq {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-top: 22px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 22px;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
 }
 .form-texto {
   width: 100%;

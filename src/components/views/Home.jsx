@@ -3,7 +3,7 @@
   import { Card, ListGroup, Button } from "react-bootstrap";
 import Contexto from "../contexto/Contexto";
 
-  
+  //no pescar esto
   export default function Home() {
  
   

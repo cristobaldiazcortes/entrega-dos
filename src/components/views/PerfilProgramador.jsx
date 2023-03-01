@@ -5,6 +5,7 @@ import { Button, Card, ListGroup } from "react-bootstrap";
 import { FaMoneyBillWave } from "react-icons/fa";
 import Contexto from "../contexto/Contexto";
 
+
 export default function Perfil() {
   const [programadorDetalle, setProgramadorDetalle] = useState([]);
   const [ProgramadorStack, setProgramadorStack] = useState([]);
@@ -36,7 +37,8 @@ export default function Perfil() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-xl-3 col-md-7 col-sm-12  col-4">
+          <div className="col-xl-3 col-md-4 col-sm-12  ajustes-card">
+            
             <Card>
               <Card.Title className="card-nombre">
                 {programadorDetalle.nombre} {programadorDetalle.apellido}
@@ -70,7 +72,7 @@ export default function Perfil() {
             </Button>
           </div>
 
-          <div className="col-xl-9 col-md-7 col-sm-12 col-8 lado-der">
+          <div className="col-xl-9 col-md-8 col-sm-12">
             <div className="resumen-de-habilidades">
               <h2>Resumen de habilidades</h2>
 

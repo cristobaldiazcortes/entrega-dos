@@ -114,7 +114,7 @@ export default function Contacto() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-4 secc-izq">
+          <div className="col-xl-3 col-md-4 col-sm-12  secc-izq"> 
             <Card>
               <Card.Title className="card-nombre">
                 {programadorDetalle.nombre} {programadorDetalle.apellido}
@@ -144,7 +144,7 @@ export default function Contacto() {
 
           </div>
 
-          <div className="col-8">
+          <div className="col-xl-9 col-md-8 col-sm-12">
             <div className="maincontainer">
               <h3>Explica brevemente tu proyecto</h3>
               <form onSubmit={handleSubmit}>
